@@ -39,7 +39,7 @@ public class Application {
             product.addProductOptions(productOption1);
 
             i++;
-            productRepository.save(product);
+            productRepository.save(product);   
         }
     }
 
