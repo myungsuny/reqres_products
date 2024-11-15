@@ -84,6 +84,7 @@ stages {
                         git push origin ${GITHUB_BRANCH}
                         cd ..
                         rm -rf repo
+                        
                     """
                 }
             }
